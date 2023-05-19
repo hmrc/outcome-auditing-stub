@@ -1,5 +1,6 @@
 # Add all the application routes to the app.routes file
-->         /outcome-auditing-stub              app.Routes
-->         /                          health.Routes
+->         /outcome-auditing        app.Routes
+->         /                        app.Routes
+->         /                        health.Routes
 
-GET        /admin/metrics             com.kenshoo.play.metrics.MetricsController.metrics
+GET        /admin/metrics           com.kenshoo.play.metrics.MetricsController.metrics
